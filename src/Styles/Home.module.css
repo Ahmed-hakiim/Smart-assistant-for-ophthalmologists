@@ -1,0 +1,30 @@
+.container {
+    background-image: url("https://www.wallpaperflare.com/static/628/1001/262/blue-eye-close-up-photo-human-eye-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 91vh;
+    width: 100%;
+}
+
+.container>h1 {
+    padding: 10vh;
+    width: 35%;
+    font-weight: 500;
+    font-size: 8vh;
+}
+
+.container>h3 {
+    margin-left: 10vh;
+    font-weight: 100;
+    font-size: 8vh;
+}
+
+.container>button {
+    margin: 10vh;
+    padding: 2vh;
+    border-radius: 50vh;
+    border: 0;
+    box-shadow: 6px 6px 40px 3px #222222;
+    font-weight: 500;
+}

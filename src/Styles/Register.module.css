@@ -1,0 +1,80 @@
+.background {
+    background-image: url("https://iristech.co/wp-content/uploads/2018/08/blinking.gif");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 0px;
+    align-items: center;
+    margin-right: 100px;
+    height: 95vh;
+    justify-content: center;
+    /* background-color: #226ce7; */
+    border-radius: 14px;
+    box-shadow: 6px 6px 40px #222222;
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form>input {
+    border: 0;
+    padding: 18px;
+    color: #222222;
+    background: #ededed;
+    border-radius: 25px;
+    width: 45vh;
+    height: 7vh;
+}
+
+.form>input::placeholder {
+    color: rgb(0 0 0 / 28%);
+}
+
+.group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.group>input {
+    height: 5vh;
+    border-radius: 9px;
+    border: 0;
+    color: #775555;
+    width: 30vh;
+}
+
+.group>select {
+    height: 5vh;
+    border-radius: 9px;
+    border: 0;
+    color: #775555;
+
+}
+
+.form>button {
+    border: 0;
+    color: #f9f9f9;
+    background: #226ce7;
+    display: grid;
+    place-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    height: 7vh;
+    border-radius: 25px;
+}

@@ -1,0 +1,55 @@
+.adminHomeContainer {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.conclusionSection {
+    background-color: #ccc;
+    background-image: url("https://www.girvenfp.co.nz/wp-content/uploads/2017/10/eye-exam.png");
+    background-size: contain;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    height: 70vh;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.conclusionSection h2 {
+    color: #0056b3;
+   
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-top: 10vh;
+}
+.conclusionSection h3{
+    color: #0c0000;
+    margin-top: 10vh;
+    margin-left: 20vh;
+    font-weight: 600;
+}
+.actionsSection {
+    display: flex;
+    gap: 20px;
+}
+
+.actionCard {
+    color: beige;
+    background-color: #007bff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.actionCard:hover {
+    background-color: #0056b3;
+}
+
+.actionCard h3 {
+    margin: 0;
+}
